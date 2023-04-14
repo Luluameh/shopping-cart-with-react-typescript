@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
       <QueryClientProvider 
-      client  ={client}>
+      client={client}>
    <App />
     </QueryClientProvider>,
 
