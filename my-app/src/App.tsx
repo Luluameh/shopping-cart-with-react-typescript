@@ -79,7 +79,7 @@ const App = () => {
         />
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)}>
-        <Badge badgeContent={getTotalItems(cartItems)} color='error'>
+        <Badge  overlap="rectangular" badgeContent={getTotalItems(cartItems)} color='error'>
           <AddShoppingCartIcon />
         </Badge>
       </StyledButton>
